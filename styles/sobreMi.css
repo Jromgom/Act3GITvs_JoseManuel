@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: auto;
+    margin-left: 0%;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    height: 10vh;
+    background-color: green;
+    display: flex;
+}
+nav p{
+    margin: 2vw;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+section{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    font-size: 1.5vw;
+}
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+#Titulo{
+    color: green;
+}
+#PiePagina{
+    color: aliceblue;
+    margin: auto;
+}
