@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: auto;
+    margin-left: 0%;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    height: 10vh;
+    background-color: green;
+    display: flex;
+}
+nav p{
+    margin: 2vw;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+main{
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+}
+#Titulo{
+    color: green;
+}
+#PiePagina{
+    color: aliceblue;
+    margin: auto;
+}
+.tabla {
+    border-spacing: 4px;
+    font-weight: bold;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+th {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: gray;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    background-color: white;
+}
+.recreo {
+    letter-spacing: 50px;
+}
+.Prog{
+ background-color: #00ff88;
+}
+.bd{
+    background-color: #164202;
+}
+.lenguaje{
+    background-color: #48ff00;
+}
+.empresa{
+    background-color: #0a7e44;
+}
+.sost{
+    background-color: #A2CA71;
+}
+.sistemas{
+    background-color: #21af0e;
+}
+.entorno{
+    background-color: #9dff00;
+}
